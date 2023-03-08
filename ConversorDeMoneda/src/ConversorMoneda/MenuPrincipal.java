@@ -24,36 +24,47 @@ public class MenuPrincipal {
             
             //convertir la moneda a un entero
            int cantidadMoneda = Integer.parseInt(cantidadMonedaString);
+                   
             		
            if(opcionMoneda == opcionesMoneda[0]) {
            	double resultado = cantidadMoneda * 0.00021;
+           	System.out.println(resultado);
            }
            else if (opcionMoneda == opcionesMoneda[1]) {
         	   double resultado = cantidadMoneda * 0.00020;
+        	   System.out.println(resultado);
 			}
            else if (opcionMoneda == opcionesMoneda[2]) {
            	double resultado = cantidadMoneda * 0.00018;
+           	System.out.println(resultado);
            }
            else if (opcionMoneda == opcionesMoneda[3]) {
            	double resultado = cantidadMoneda * 0.029;
+           	System.out.println(resultado);
            }
            else if (opcionMoneda == opcionesMoneda[4]) {
            	double resultado = cantidadMoneda * 0.28;
+           	System.out.println(resultado);
            }
            else if(opcionMoneda == opcionesMoneda[5]) {
             	double resultado = cantidadMoneda * 4700;
+            	System.out.println(resultado);
             }
             else if (opcionMoneda == opcionesMoneda[6]) {
 				double resultado = cantidadMoneda * 5000;
+				System.out.println(resultado);
 			}
             else if (opcionMoneda == opcionesMoneda[7]) {
             	double resultado = cantidadMoneda * 5600;
+            	System.out.println(resultado);
             }
             else if (opcionMoneda == opcionesMoneda[8]) {
             	double resultado = cantidadMoneda * 34;
+            	System.out.println(resultado);
             }
             else if (opcionMoneda == opcionesMoneda[9]) {
             	double resultado = cantidadMoneda * 3.6;
+            	System.out.println(resultado);
             }
         }
     }
