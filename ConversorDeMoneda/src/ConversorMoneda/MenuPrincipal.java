@@ -25,9 +25,35 @@ public class MenuPrincipal {
             //convertir la moneda a un entero
            int cantidadMoneda = Integer.parseInt(cantidadMonedaString);
             		
-            
-            if(opcionMoneda == opcionesMoneda[0]) {
-            	
+           if(opcionMoneda == opcionesMoneda[0]) {
+           	double resultado = cantidadMoneda * 0.00021;
+           }
+           else if (opcionMoneda == opcionesMoneda[1]) {
+        	   double resultado = cantidadMoneda * 0.00020;
+			}
+           else if (opcionMoneda == opcionesMoneda[2]) {
+           	double resultado = cantidadMoneda * 0.00018;
+           }
+           else if (opcionMoneda == opcionesMoneda[3]) {
+           	double resultado = cantidadMoneda * 0.029;
+           }
+           else if (opcionMoneda == opcionesMoneda[4]) {
+           	double resultado = cantidadMoneda * 0.28;
+           }
+           else if(opcionMoneda == opcionesMoneda[5]) {
+            	double resultado = cantidadMoneda * 4700;
+            }
+            else if (opcionMoneda == opcionesMoneda[6]) {
+				double resultado = cantidadMoneda * 5000;
+			}
+            else if (opcionMoneda == opcionesMoneda[7]) {
+            	double resultado = cantidadMoneda * 5600;
+            }
+            else if (opcionMoneda == opcionesMoneda[8]) {
+            	double resultado = cantidadMoneda * 34;
+            }
+            else if (opcionMoneda == opcionesMoneda[9]) {
+            	double resultado = cantidadMoneda * 3.6;
             }
         }
     }
